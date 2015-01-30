@@ -1,0 +1,96 @@
+.title{
+  background-color: #d4bc5c;  /* 배경 색깔 */
+  width: 40%; /* 화면 대비 % */
+  font-family: 맑은 고딕;
+  font-size: 28px;
+  text-align: center; /* 문자열 가운데 정렬 */
+  margin: 30px auto; /* px 생략 하지 말것, auto: 가운데 정렬 */
+  padding: 10px 10px;   /* 태그 경계와 내용의 간격: 위아래 좌우 */
+  font-weight: bold;  /* 진하게 강조 */
+  border-style: solid; /* 선 스타일 실선 지정*/
+  border-width: 1px; /* 선의 두께 */
+  border-color: #AAAAAA; /* 선 색깔 */
+  color: #FFFFFF; /* 글자색 */
+}
+
+.bottom{  /* class='bottom' */
+  margin: 20px auto;  /* 위아래 20px, 좌우 자동 정렬*/  
+  text-align: center;
+} 
+
+.content{
+  text-align: center; /* 문자열 가운데 정렬 */
+  margin: 20px auto;  /* DIV 태그 가운데 정렬 */
+}
+
+/* 모든 TABLE 태그에 적용됨. */
+TABLE{
+  margin: 0px auto;
+  border-style: solid; /* 선 스타일 실선 지정*/
+  border-width: 1px; /* 선의 두께 */
+  border-color: #AAAAAA; /* 선 색깔 */
+  border-collapse: collapse; /* TH, TD의 선을 단일선으로 병합 */ 
+}
+ 
+TH{
+  border-style: solid; /* 선 스타일 실선 지정*/
+  border-width: 1px; /* 선의 두께 */
+  border-color: #AAAAAA; /* 선 색깔 */  
+  font-family: 맑은 고딕;
+  font-size: 16px;
+  background-color: #8b6732;
+  color: #FFFFFF;
+}
+ 
+TD{ /* 모든 <TD> 태그 */
+  border-style: solid; /* 선 스타일 실선 지정*/
+  border-width: 1px; /* 선의 두께 */
+  border-color: #AAAAAA; /* 선 색깔 */  
+  font-family: 맑은 고딕;
+  font-size: 16px;
+  text-align: center; /* 문자열 가운데 정렬 */  
+}
+
+.tbl_join th{
+  text-align: right;
+  padding-right:20px;
+}
+
+.tbl_join td{
+  text-align: left; /* 문자열 가운데 정렬 */
+  padding:5px 20px 5px 20px;  
+}
+
+.tbl_list th{
+  padding:5px 20px 5px 20px;  
+}
+
+.tbl_list td{
+  padding:5px 20px 5px 20px;
+}
+
+/* 출력되는 A 태그 기본 모양 */
+A:link{ 
+  text-decoration: none; /* 밑줄 삭제 */
+  color: #000000;
+}
+ 
+/* A 태그에 마우스가 위치했을 때 */
+A:hover{
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #000000;
+}
+ 
+/* A 태그가 클릭된적이 있는 경우의 모양 */
+A:visited {
+  text-decoration: none;
+  color: #000000;
+}
+ 
+*{
+  font-family: 맑은 고딕;
+  font-size: 16px;
+}
+
+ 
